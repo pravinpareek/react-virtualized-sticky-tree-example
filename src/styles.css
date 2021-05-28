@@ -1,0 +1,40 @@
+body {
+  margin: 0
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;;
+}
+
+.look {
+  display: flex;
+  background-color: antiquewhite;
+  height: 100%;
+  border: 1px solid black;
+  box-sizing: border-box;
+  flex-direction: column;
+}
+.look-row {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+}
+
+.look-image {
+  background-color: slateblue;
+  width: 50%;
+}
+.look-products {
+  display: flex;
+  width: 50%;
+  flex-wrap: wrap;
+}
+
+.look-product {
+  width: 100px;
+  height: 200px;
+  background-color: cadetblue;
+  margin: 10px;
+}
